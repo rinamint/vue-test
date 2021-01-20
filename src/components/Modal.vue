@@ -101,6 +101,11 @@ export default {
   color: #ffffff;
   background: #808080;
   font-size: 18px;
+}
 
+@media only screen and (max-width: 480px) {
+  .modal {
+    width: 90%;
+  }
 }
 </style>
