@@ -79,7 +79,6 @@ export default {
   .extra {
     flex-direction: column;
     text-align: center;
-    border: 1px solid
   }
   .feedback {
     flex-direction: column;
