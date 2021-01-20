@@ -66,15 +66,27 @@ export default {
   text-align: left;
 }
 .img {
-  margin: 2%;
+  margin: auto 3%;
 }
 .extraInfo > p {
   margin: 0;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 900px) {
   .aside {
     flex-direction: column;
   }
+  .extra {
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid
+  }
+  .feedback {
+    flex-direction: column;
+    text-align: center;
+  }
+  .img {
+  margin-top: 2%;
+}
 }
 </style>
